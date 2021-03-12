@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+  <div class="row justify-content-center" style="text-align: center; margin-top: 50px; display: flex; justify-content: space-between;">
+
+  {% for c in connect %}
+
+    <div class="col-md-8 card mt-5 ml-3 mr-3" style="flex-basis: 500px; border: 4px dashed black">
+      <div class="card-body">
+          <a href="mailto:{{ c.email_id }}"><i style="font-size:50px; color: black" class="fa">&#xf0e0;</i></a>
+          <p><div class="card-text">{{ c.email_content }}</div></p>
+          <p><a href="mailto:{{ c.email_id }}" style="color: black">{{ c.email_id }}</a></p>
+      </div>
+    </div>
+
+    <div class="col-md-8 card mt-5 ml-3 mr-3" style="flex-basis: 500px; border: 4px dashed deepskyblue">
+      <div class="card-body">
+          <a href="{{ c.twitter_link }}"><i style="font-size:50px; color: deepskyblue" class="fa">&#xf099;</i></a>
+          <p><div class="card-text" style="color: deepskyblue">{{ c.twitter_content }}</div></p>
+          <p><a href="{{ c.twitter_link }}" style="color: deepskyblue">{{ c.twitter_id }}</a></p>
+      </div>
+    </div>
+
+    <div class="col-md-8 card mt-5 ml-3 mr-3" style="flex-basis: 500px; border: 4px dashed #0e76a8">
+      <div class="card-body">
+          <a href="{{ c.linkedin_link }}"><i style="font-size:50px; color: #0e76a8" class="fa">&#xf08c;</i></a>
+          <p><div class="card-text" style="color: #0e76a8">{{ c.linkedin_content }}</div></p>
+          <p><a href="{{ c.linkedin_link }}" style="color: #0e76a8">{{ c.linkedin_id }}</a></p>
+      </div>
+    </div>
+
+    <div class="col-md-8 card mt-5 ml-3 mr-3" style="flex-basis: 500px; border: 4px dashed darkred">
+      <div class="card-body">
+          <a href="{{ c.insta_link }}"><i style="font-size:50px; color: darkred" class="fa">&#xf16d;</i></a>
+          <p><div class="card-text" style="color: darkred">{{ c.insta_content }}</div></p>
+          <p><a href="{{ c.insta_link }}" style="color: darkred">{{ c.insta_id }}</a></p>
+      </div>
+    </div>
+
+      {% endfor %}
+
+  </div>
+</div>
+
+{% endblock content %}

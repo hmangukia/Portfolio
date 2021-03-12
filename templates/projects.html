@@ -1,0 +1,16 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+  <div class="row justify-content-center" style="margin-top: 50px;">
+    {% for p in projects %}
+    <div class="col-md-8 card mt-5 ml-3 mr-3" style="flex-basis: 500px">
+      <div class="card-body">
+          <h2 class="card-title">{{ p.title }}</h2>
+          <p class="card-text">{{ p.content }}</p>
+          <a href="{{ p.link }}" target="_blank"><i style="font-size:24px; color: black" class="fa">&#xf09b;</i></a>
+      </div>
+    </div>
+      {% endfor %}
+  </div>
+</div>
+
+{% endblock content %}
