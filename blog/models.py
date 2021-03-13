@@ -32,7 +32,7 @@ class Project(models.Model):
         return self.title
 
 class Connect(models.Model):
-    email_id = models.CharField(max_length=200)
+    email_id = models.CharField(max_length=200, null=True)
     twitter_id = models.CharField(max_length=200)
     linkedin_id = models.CharField(max_length=200)
     insta_id = models.CharField(max_length=200)

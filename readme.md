@@ -6,6 +6,7 @@
 
 - Fork the repository and clone it into your PC
 - Open CMD and navigate into the cloned project folder
+- If you do not have Python, install it from https://www.python.org/downloads/. Make sure to install pip and add Python to path of system environment variables as well
 - Create a virtual environment by `python3 -m venv <name_of_virtualenv>`
 - Activate the created virtual environment by `<name_of_virtualenv>\Scripts\activate`
 - We need to install Django and Django-environ in order to run our project successfully. For that, run `pip install django` and `pip install django-environ`
