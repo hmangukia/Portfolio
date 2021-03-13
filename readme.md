@@ -46,4 +46,4 @@ Quit the server with CTRL-BREAK.
 - Uploading image to be displayed on 'About Me'
 - More to be added soon!
 
-#### You can contact me any time on hmangukia9@gmail.com or LinkedIn if you are facing any error in installation or hosting. Would be more than happy to help for creating index.html as well! 
+### You can contact me any time on hmangukia9@gmail.com or LinkedIn if you are facing any error in installation or hosting. Would be more than happy to help for creating index.html as well! 
