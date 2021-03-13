@@ -25,4 +25,15 @@ Quit the server with CTRL-BREAK.
 - Now again run the server by `python manage.py runserver`
 - Navigate to 127.0.0.1:8000/admin
 - You will see something like this:
-<img width="400" src="https://github.com/hmangukia/Profile/blob/main/admin_panel.png">
+<img src="https://github.com/hmangukia/Portfolio/blob/main/admin_panel_login.png">
+  
+- Enter the username and password and login where you will see something like this:
+<img src="https://github.com/hmangukia/Portfolio/blob/main/admin_panel.png">
+
+- Under Connects, you can add your social media usernames, links(urls) to your profiles, and content(a bit about yourself) you want to show on the connect page
+- Under projects, you can add the name(title) of your project, content explaining what your project is all about, and GitHub link to the repo of your project
+- Under Posts, you can add blog posts and publish it(or keep it draft)
+- Navigate to your site and you will see the projects, blogs and social media profiles added to it
+- However, on the left corner of the navbar, it shows “name”. You can change it by going to Portfolio/templates/base.html
+- Inside the body and nav tag, find where “Name” is written. Change that to your name and you are good to go!
+- For now, the home page is blank. You can add HTML block at Portfolio/templates/index.html
