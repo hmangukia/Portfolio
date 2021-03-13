@@ -1,8 +1,8 @@
 # Portfolio
 
-[![made with &hearts in Django](https://img.shields.io/badge/made%20with%20%E2%9D%A4%20in-Django-red.svg)](http://shields.io/#your-badge)
+[![made with &hearts in Django](https://img.shields.io/badge/made%20with%20%E2%9D%A4%20in-Django-green.svg)](http://shields.io/#your-badge)
 
-## Installation
+### Installation
 
 - Fork the repository and clone it into your PC
 - Open CMD and navigate into the cloned project folder
@@ -37,3 +37,13 @@ Quit the server with CTRL-BREAK.
 - However, on the left corner of the navbar, it shows “name”. You can change it by going to Portfolio/templates/base.html
 - Inside the body and nav tag, find where “Name” is written. Change that to your name and you are good to go!
 - For now, the home page is blank. You can add HTML block at Portfolio/templates/index.html
+
+### More features to be added
+
+- Documentation on how to host your Portfolio for free(on Heroku)
+- Changing models
+- Presently, the color theme is green. Would like to add the option of changing the theme color according user preference
+- Uploading image to be displayed on 'About Me'
+- More to be added soon!
+
+##### You can contact me any time on hmangukia9@gmail.com or LinkedIn if you are facing any error in installation or hosting. Would be more than happy to help for creating index.html as well! 
