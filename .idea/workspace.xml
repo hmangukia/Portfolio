@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53919032-d046-4835-ad42-a70112c3e11d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,6 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -49,7 +48,30 @@
       <recent name="C:\Users\Gudiya\PycharmProjects\djangoProject\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.Portfolio">
+    <configuration name="Portfolio" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Portfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +110,8 @@
       <workItem from="1613406294012" duration="21167000" />
       <workItem from="1614446936323" duration="42272000" />
       <workItem from="1614982404697" duration="16014000" />
-      <workItem from="1615577229926" duration="12095000" />
+      <workItem from="1615577229926" duration="12448000" />
+      <workItem from="1615745055077" duration="464000" />
     </task>
     <servers />
   </component>
@@ -99,10 +122,18 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615745090981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1615745090981" />
     <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615584646167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1615584646167" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1615697676427">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615697676427" />
     <state width="1323" height="47" key="GridCell.Tab.0.bottom" timestamp="1614919204323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -119,9 +150,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="47" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614919204323" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1615578800937">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1615745085628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1615578800937" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1615745085628" />
   </component>
 </project>
